@@ -18,5 +18,13 @@ namespace _4_2018_probaBaza
             this.StudentIndex = StudentIndex;
             this.Points = Points;
         }
+
+        public override string ToString()
+        {
+            return "ID: " + Id + "\t" +
+                    "Ime:" + StudentName + "\t\t" +
+                    "Indeks:" + StudentIndex + "\t" +
+                    "Poeni:" + Points;
+        }
     }
 }
